@@ -3,31 +3,16 @@
 Full-length 16S in gut microbiome provides higher taxonomic resolution (often to species; sometimes strain “hints”). Short regions (esp. V4) frequently collapse multiple species into one genus-level call, while full-length provides more informative sites across the gene and can separate closely related taxa better. This is a recurring conclusion across benchmarking studies. 
 
 Pipeline logic:
+https://github.com/genomic-medicine-sweden/TRANA
+1. Check QC - FastQC, Nanoplot, MultiQC, Filtlong
+2. EMU - relative abundance estimator for 16S genomic sequences. The method is optimized for error-prone full-length reads and is capable of accurate microbial community profiling while obtaining fewer false positives and false negatives than alternative methods. (https://www.nature.com/articles/s41592-022-01520-4)
+3. Krona - relative abundace results are displayed with Krona
 
-RiboGrove - A database that only contains full-length prokaryotic 16S rRNA sequences extracted from completely assembled genomes — excellent for phylogenetic or genome-linked marker studies. (https://www.sciencedirect.com/science/article/pii/S0923250822000171)
-
-
-
+I have used with pipeeline RiboGrove - A database that only contains full-length prokaryotic 16S rRNA sequences extracted from completely assembled genomes — excellent for phylogenetic or genome-linked marker studies. (https://www.sciencedirect.com/science/article/pii/S0923250822000171).
 
  
  Results from both ONT and Illumina were merged and analyzed in R (v. 4.2.0)57, mainly through Phyloseq (v. 1.42.0)58 for data management, ANCOM-BC (v. 2.0.1)59 for differential abundance analysis (prevalence cutoff of 10%, adjusting significance by Holm-Bonferroni60) and microbiome (v. 1.20.0)61 for centered log-ratio abundance normalization (CLR). In order to assess -diversity differences, a PERMANOVA analysis through adonis262, using a multi-dimensional scaling (MDS) and the Jensen-Shannon distance (JSD), was performed. Additionally, pairwise comparisons were conducted using Wilcoxon rank-sum tests (WRST), adjusting significance for multiple comparisons using Holm-Bonferroni. Significance values across analyses are represented as * (), ** () or *** ().
 
-
-
-Kraken2 uses k-mer exact matches
-Nanopore errors break k-mers
-Full-length 16S benefits from alignment-based methods
-
-
-###########
-use Emu classifier
-
-Curry KD, et al. Emu: species-level microbial community profiling of full-length 16S rRNA Oxford Nanopore sequencing data. Nature Methods. 2022. Emu uses an expectation-maximization algorithm tailored for long-read 16S profiling, yielding accurate taxonomic abundance profiles with fewer false positives/negatives than alternatives.
-###########
-
-
-
-ISSN 0923-2508,
 
 
 #made pathogenic bacteria lists
