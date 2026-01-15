@@ -41,5 +41,29 @@ Research in Microbiology,
 Volume 173, Issues 4–5,
 2022,
 103936,
+
+
+
+Aja-Macaya, P., Conde-Pérez, K., Trigo-Tasende, N. et al. Nanopore full length 16S rRNA gene sequencing increases species resolution in bacterial biomarker discovery. Sci Rep 15, 26486 (2025). https://doi.org/10.1038/s41598-025-10999-8
+
+ Additionally, Duplex Tools (v. 0.2.9)48 was used to detect and remove reads with mid-strand adapters. Host contamination was assessed with Kraken2 using its Standard 64Gb database (https://benlangmead.github.io/aws-indexes/k2)49. Lastly, reads were identified using Emu (v. 3.4.5)43 with its Default database (rrnDB v. 5.650 combined with NCBI 16S RefSeq51,52) and SILVA (v. 138.1)53,54.
+ 
+ Results from both ONT and Illumina were merged and analyzed in R (v. 4.2.0)57, mainly through Phyloseq (v. 1.42.0)58 for data management, ANCOM-BC (v. 2.0.1)59 for differential abundance analysis (prevalence cutoff of 10%, adjusting significance by Holm-Bonferroni60) and microbiome (v. 1.20.0)61 for centered log-ratio abundance normalization (CLR). In order to assess -diversity differences, a PERMANOVA analysis through adonis262, using a multi-dimensional scaling (MDS) and the Jensen-Shannon distance (JSD), was performed. Additionally, pairwise comparisons were conducted using Wilcoxon rank-sum tests (WRST), adjusting significance for multiple comparisons using Holm-Bonferroni. Significance values across analyses are represented as * (), ** () or *** ().
+
+
+
+Kraken2 uses k-mer exact matches
+Nanopore errors break k-mers
+Full-length 16S benefits from alignment-based methods
+
+
+###########
+use Emu classifier
+
+Curry KD, et al. Emu: species-level microbial community profiling of full-length 16S rRNA Oxford Nanopore sequencing data. Nature Methods. 2022. Emu uses an expectation-maximization algorithm tailored for long-read 16S profiling, yielding accurate taxonomic abundance profiles with fewer false positives/negatives than alternatives.
+###########
+
+
+
 ISSN 0923-2508,
 https://doi.org/10.1016/j.resmic.2022.103936.
