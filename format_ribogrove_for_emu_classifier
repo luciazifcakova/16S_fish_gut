@@ -1,0 +1,62 @@
+#format ribogrove database files for Emu classifier
+zcat ribogrove_26.232_sequences.fasta.gz | \
+awk '
+  /^>/ {
+    header=$0
+    sub(/^>/, "", header)          # remove >
+    sub(/[[:space:]].*$/, "", header)  # remove everything after first whitespace
+    print ">" header
+    next
+  }
+  { print }
+' > ribogrove_emu1.fasta
+
+conda create -n emu -c conda-forge -c bioconda emu
+conda activate emu
+
+grep '^>' ribogrove_26.232_sequences.fasta \
+| sed 's/^>//' \
+| cut -d' ' -f1 \
+| awk -F':' '{print $0 "\t" $1}' \
+> seqid_to_asm.tsv
+
+tail -n +2 ./metadata/taxonomy.tsv | cut -f1,2 > asm_to_taxid.tsv
+
+join -t $'\t' -1 2 -2 1 \
+  <(sort -k2 seqid_to_asm.tsv) \
+  <(sort -k1 asm_to_taxid.tsv) \
+| awk '{print $2 "\t" $3}' \
+> seq2tax.tsv
+
+#remove the sequence ID = first column, keep only unique entries
+cut -f2- metadata/taxonomy.tsv|uniq > taxonomy_no_asm1.tsv
+
+#build emu classifier database from ribogrove
+emu build-database \
+  --sequences ribogrove_emu1.fasta \
+  --taxonomy-list taxonomy_no_asm1.tsv \
+  --seq2tax seq2tax.tsv \
+  ribogrove_emu_db
+
+#create input sample sheet
+DATA_DIR="/flash/MillerU/seqme_test/fish"
+echo "sample,fastq_1,fastq_2" > samplesheet.csv
+i=1
+for f in ${DATA_DIR}/*_Filtered.fastq.gz; do
+  sample="SAMPLE_${i}"
+  abs_path=$(readlink -f "$f")
+  echo "${sample},${abs_path}," >> samplesheet.csv
+  ((i++))
+done
+ 
+#force storage of imgs to dir
+cat > nextflow.config
+singularity {
+  enabled = true
+  autoMounts = true
+  cacheDir = '/flash/MillerU/seqme_test/singularity_cache'
+}
+
+process {
+  scratch = false
+}
