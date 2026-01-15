@@ -1,0 +1,86 @@
+#log in synopsis
+SHARE_ID="V4kwhJsaL"
+PASS="eACRkktUQwIX"
+BASE="https://data.seqme.eu"
+curl -s -c cookies.txt \
+   -d "api=SYNO.Core.Sharing.Login&method=login&version=1&sharing_id=$SHARE_ID&password=$PASS" \
+   "$BASE/webapi/entry.cgi"
+
+#output
+{"data":{"sharing_sid":"wzk_dg94fNh_Qi4xBVvxZq9QoCpN-98r"},"success":true}
+
+#SID from cookies.txt
+SID="wzk_dg94fNh_Qi4xBVvxZq9QoCpN-98r"
+API="$BASE/fsdownload/$SHARE_ID/webapi/entry.cgi"
+
+
+#get file list
+curl -s \
+  -H "Cookie: sharing_sid=$SID" \
+  -H "X-SYNO-SHARING: $SHARE_ID" \
+  --data-urlencode "api=SYNO.FolderSharing.List" \
+  --data-urlencode "version=2" \
+  --data-urlencode "method=list" \
+  --data-urlencode "folder_path=/TEST" \
+  "$API" | jq -r '.data.files[].path'
+  
+#output
+/TEST/COX_test.tar.gz
+/TEST/description.odt
+/TEST/fish_test.tar.gz
+
+
+#Download the one file
+curl -sS -L \
+  -H "Cookie: sharing_sid=$SID" \
+  -H "X-SYNO-SHARING: $SHARE_ID" \
+  --data-urlencode "api=SYNO.FolderSharing.Download" \
+  --data-urlencode "version=2" \
+  --data-urlencode "method=download" \
+  --data-urlencode 'path=["/TEST/COX_test.tar.gz"]' \
+  --data-urlencode "mode=download" \
+  -D COX_test.headers.txt \
+  -o COX_test.tar.gz \
+  "$API"
+
+
+#Download the WHOLE /TEST folder as a zip
+curl -sS -L \
+  -H "Cookie: sharing_sid=$SID" \
+  -H "X-SYNO-SHARING: $SHARE_ID" \
+  --data-urlencode "api=SYNO.FolderSharing.Download" \
+  --data-urlencode "version=2" \
+  --data-urlencode "method=download" \
+  --data-urlencode 'path=["/TEST"]' \
+  --data-urlencode "mode=download" \
+  -D TEST.headers.txt \
+  -o TEST.zip \
+  "$API"
+
+#Download all files listed by SYNO.FolderSharing.List
+curl -sS \
+  -H "Cookie: sharing_sid=$SID" \
+  -H "X-SYNO-SHARING: $SHARE_ID" \
+  --data-urlencode "api=SYNO.FolderSharing.List" \
+  --data-urlencode "version=2" \
+  --data-urlencode "method=list" \
+  --data-urlencode "folder_path=/TEST" \
+  "$API" \
+| jq -r '.data.files[].path' > paths.txt
+
+cat paths.txt
+
+while read -r p; do
+  out="$(basename "$p")"
+  echo "Downloading $p -> $out"
+  curl -sS -L \
+    -H "Cookie: sharing_sid=$SID" \
+    -H "X-SYNO-SHARING: $SHARE_ID" \
+    --data-urlencode "api=SYNO.FolderSharing.Download" \
+    --data-urlencode "version=2" \
+    --data-urlencode "method=download" \
+    --data-urlencode "mode=download" \
+    --data-urlencode "path=[\"$p\"]" \
+    -o "$out" \
+    "$API" || exit 1
+done < paths.txt
