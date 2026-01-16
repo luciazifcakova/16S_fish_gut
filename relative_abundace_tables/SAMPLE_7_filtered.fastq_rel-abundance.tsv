@@ -1,0 +1,38 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+3070656	0.024986536217574722	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	2227.0
+2119	0.8877232743918858	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	79121.0
+416213	0.0012779822042289024	Ferrovum myxofaciens	Ferrovum myxofaciens	Ferrovum	Ferrovaceae	Ferrovales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	113.90399789851362
+3081984	0.0011654763274829203	Pigmentiphaga sp. CHJ604	Pigmentiphaga sp. CHJ604	Pigmentiphaga	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	103.87657411589771
+3366811	0.01847664642278598	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	1646.7865423700687
+511	0.0005471839024907386	Alcaligenes faecalis	Alcaligenes faecalis	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	48.769406861194554
+933080	0.00034802393083797504	Oxalobacter vibrioformis	Oxalobacter vibrioformis	Oxalobacter	Oxalobacteraceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	31.01867690772704
+1553431	0.0004123530693993221	Mycoavidus cysteinexigens	Mycoavidus cysteinexigens	Mycoavidus	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	36.75220436942278
+2782176	0.0001618805979273671	Orrella daihaiensis	Orrella daihaiensis	Orrella	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	14.428093932070375
+3445768	0.0004256191509278268	Parapusillimonas sp. JC17	Parapusillimonas sp. JC17	Parapusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	37.93458368389535
+2582914	0.00021388213114294978	Alcaligenes ammonioxydans	Alcaligenes ammonioxydans	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	19.062886584508828
+2962065	0.00027864723028663354	Pollutimonas sp. M17	Pollutimonas sp. M17	Pollutimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	24.835270340987073
+1007105	0.002562780941893082	Pusillimonas sp. T7-7	Pusillimonas sp. T7-7	Pusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	228.41553978904662
+2828656	0.024447984920563683	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	2179.0
+1319815	0.000212879402810546	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	18.973515413698344
+188913	0.011624029312744292	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	1036.0264845862732
+876	0.012093619195785795	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	1077.8800916819964
+631220	0.0010473290616525872	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	93.34634460697178
+1981031	0.0006968221566256797	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	62.10636517573358
+881	0.0002992011324757604	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	26.667198535299576
+654	0.0007245727083443134	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	64.57971634931197
+2033033	0.004048083667494144	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	360.7976011164181
+2778066	0.0008372529680265422	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	74.62268253426966
+2789776	0.0013014989677766807	Actinomarinicola tropica	Actinomarinicola tropica	Actinomarinicola	Iamiaceae	Acidimicrobiales	Acidimicrobiia	Actinomycetota	Bacillati	Bacteria	116.0
+1494466	0.00013179202442129272	Burkholderia sp. FERM BP-3421	Burkholderia sp. FERM BP-3421	Burkholderia	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.746359552620978
+3135646	0.0006767867178605432	Niveibacterium sp. SC-1	Niveibacterium sp. SC-1	Niveibacterium	Rhodocyclaceae	Rhodocyclales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	60.3206465894745
+2571748	0.000251647534493581	Paraburkholderia acidisoli	Paraburkholderia acidisoli	Paraburkholderia	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	22.428841454343885
+2880218	0.00026022297767751425	Paraburkholderia sp. D15	Paraburkholderia sp. D15	Paraburkholderia	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	23.19315355444149
+3070658	0.0003762864768386952	Nitrosomonas sp. sh817	Nitrosomonas sp. sh817	Nitrosomonas	Nitrosomonadaceae	Nitrosomonadales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.53766110767923
+1484693	0.0002019567363791401	Rhodoferax saidenbachensis	Rhodoferax saidenbachensis	Rhodoferax	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	18.0
+2739061	0.0010883224127098106	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	97.0
+2854260	0.0004039134727582802	Porphyrobacter sp. ULC335	Porphyrobacter sp. ULC335	Porphyrobacter	Erythrobacteraceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	36.0
+311182	0.0003926936540708873	Denitratisoma oestradiolicum	Denitratisoma oestradiolicum	Denitratisoma	Sterolibacteriaceae	Nitrosomonadales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	35.00000000003004
+580	0.0001682972803159501	Kluyvera cryocrescens	Kluyvera cryocrescens	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.0
+457921	0.00013452069930970433	Massilia varians	Massilia varians	Massilia	Oxalobacteraceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.989560888075328
+unmapped	0.0										2.0
+mapped_unclassified	0.0										55.0

@@ -1,0 +1,17 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+3070656	0.4795268102798744	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	194267.33996101355
+1319815	0.0019643389039223557	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	795.7988697737366
+188913	0.3002511548265755	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	121638.64859680674
+2590015	0.2152472344395575	Shewanella sp. SNU WT4	Shewanella sp. SNU WT4	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	87201.60535785685
+3136601	3.198348656961605e-05	Owariibacterium komagatae	Owariibacterium komagatae	Owariibacterium	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	12.957246029542562
+2778066	0.000443469526678677	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	179.65970505664566
+654	0.0014420792891467577	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	584.2194878570019
+2119	0.0006170371357629787	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	249.97593555170522
+2739061	3.9490376688830644e-05	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.998459875309138
+3417654	0.00013270279399912104	Cetobacterium sp. SF1	Cetobacterium sp. SF1	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	53.76095401330591
+3135646	0.00010613038735123235	Niveibacterium sp. SC-1	Niveibacterium sp. SC-1	Niveibacterium	Rhodocyclaceae	Rhodocyclales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	42.995860914893306
+86664	5.6767416490194045e-05	Priestia flexa	Priestia flexa	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	22.99778607075688
+3366811	0.00011600298152344	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	46.99547588372059
+2033032	2.4798156496749142e-05	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10.046303554432503
+unmapped	0.0										0.0
+mapped_unclassified	0.0										67.0

@@ -1,0 +1,19 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.9884045735020703	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	110046.0
+2828656	0.0013203157979827013	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	147.0
+416213	0.0003296223649518635	Ferrovum myxofaciens	Ferrovum myxofaciens	Ferrovum	Ferrovaceae	Ferrovales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	36.69916524664563
+3416924	0.0002661678362664534	Alcaligenes sp. HNGD-HTN06	Alcaligenes sp. HNGD-HTN06	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	29.634328386398124
+3078429	0.0002757103764548985	Alcaligenes sp. SJTW-7	Alcaligenes sp. SJTW-7	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	30.69676618335903
+2582914	0.0002413519744031763	Alcaligenes ammonioxydans	Alcaligenes ammonioxydans	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	26.87140477412644
+1308	0.0023172889515614757	Streptococcus thermophilus	Streptococcus thermophilus	Streptococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	258.0
+2821536	0.0013491932102201436	Chloracidobacterium sp. D	Chloracidobacterium sp. D	Chloracidobacterium	Acidobacteriaceae	Terriglobales	Terriglobia	Acidobacteriota	Pseudomonadati	Bacteria	150.21512444628013
+2821542	0.0001597391303315145	Chloracidobacterium sp. MS 40/45	Chloracidobacterium aggregatum	Chloracidobacterium	Acidobacteriaceae	Terriglobales	Terriglobia	Acidobacteriota	Pseudomonadati	Bacteria	17.784875553719832
+2033033	0.0004041783055049085	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	45.0
+3366811	0.0024268321345014554	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	270.19620935898854
+1007105	0.00037635400675859967	Pusillimonas sp. T7-7	Pusillimonas sp. T7-7	Pusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	41.90212605048221
+12917	0.0010239183739457682	Acidovorax facilis	Acidovorax facilis	Acidovorax	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	114.0
+876	0.0007544661702758292	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	84.0
+29447	0.0001526895820796321	Xanthomonas albilineans	Xanthomonas albilineans	Xanthomonas	Lysobacteraceae	Lysobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	17.0
+1282	0.00019759828269128862	Staphylococcus epidermidis	Staphylococcus epidermidis	Staphylococcus	Staphylococcaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	22.0
+unmapped	0.0										1.0
+mapped_unclassified	0.0										13.0

@@ -1,0 +1,52 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2778066	0.03941943307258967	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	18237.440130466683
+654	0.03855826217623724	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	17839.018554098337
+1347420	7.418466639741286e-05	Aeromonas veronii Hm21	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	34.321610093429456
+2033033	0.14123245817881364	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	65341.338008886305
+73010	0.00020548790174022515	Aeromonas encheleia	Aeromonas encheleia	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	95.06918322801691
+645	0.005904149006710125	Aeromonas salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2731.560442103446
+644	0.00025320047569855756	Aeromonas hydrophila	Aeromonas hydrophila	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	117.14345328241335
+1319815	0.0008518345831559458	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	394.1021217316815
+188913	0.3014914065453809	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	139485.30072962702
+3070656	0.3526563843679234	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	163156.82888420412
+24	0.0021480159134063845	Shewanella putrefaciens	Shewanella putrefaciens	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	993.7817103533772
+62322	0.005402677281328585	Shewanella baltica	Shewanella baltica	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2499.5540468839513
+2726434	0.019942184058858524	Shewanella oncorhynchi	Shewanella oncorhynchi	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	9226.271397014954
+332186	4.324907510764698e-05	Shewanella xiamenensis	Shewanella xiamenensis	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	20.009227847627983
+2029986	0.027220058201050237	Shewanella sp. WE21	Shewanella sp. WE21	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	12593.387146774094
+648794	2.41081537665631e-05	Aeromonas rivuli	Aeromonas rivuli	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.153661448254185
+29491	0.00015106441304636037	Aeromonas salmonicida subsp. salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	69.89010176031167
+2033032	0.0001461245983227127	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	67.60469153860134
+197700	0.0017357795563387806	Aeromonas salmonicida subsp. masoucida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	803.0601475196931
+580	0.014295547739946254	Kluyvera cryocrescens	Kluyvera cryocrescens	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	6613.849457433875
+61648	3.427959298444831e-05	Kluyvera intermedia	Kluyvera intermedia	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.859487973847996
+546	0.0007535165241192753	Citrobacter freundii	Citrobacter freundii	Citrobacter	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	348.61517340030684
+51288	7.153081482621587e-05	Kluyvera ascorbata	Kluyvera ascorbata	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.0938030101636
+2739061	0.03800963178645223	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	17585.19415563391
+2865840	0.00015996626937770072	Deefgea tanakiae	Deefgea tanakiae	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	74.00855449386262
+2119	0.0026188644672868583	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	1211.6202646547324
+548	0.00169442959237026	Klebsiella aerogenes	Klebsiella aerogenes	Klebsiella	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	783.9295453396932
+2834819	0.0001443629912515463	Klebsiella sp. A52	Klebsiella sp. A52	Klebsiella	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	66.78968226551915
+693974	4.4479470214155765e-05	Shewanella baltica BA175	Shewanella baltica	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	20.57847137404938
+693973	4.374694208544688e-05	Shewanella baltica OS678	Shewanella baltica	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	20.239566502774085
+876	0.0018597871832002192	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	860.4324000947646
+631220	0.00020139301172158834	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	93.17467826600456
+1981031	6.546153311975325e-05	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	30.28584375938696
+3136601	6.0579482902870554e-05	Owariibacterium komagatae	Owariibacterium komagatae	Owariibacterium	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	28.027158344495966
+881	4.7102504995574624e-05	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	21.792021038707595
+94122	6.147107138928112e-05	Shewanella sp. ANA-3	Shewanella sp. ANA-3	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	28.439652649322298
+2949614	2.9758326009003507e-05	Pectobacterium sp. F1-1	Pectobacterium sp. F1-1	Pectobacterium	Pectobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	13.76771928639148
+3391839	7.169748368463157e-05	Erwinia sp. LJJL01	Erwinia sp. LJJL01	Erwinia	Erwiniaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.17091252417848
+68334	0.0010235340225156308	Erwinia aphidicola	Erwinia aphidicola	Erwinia	Erwiniaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	473.5390390508791
+133448	0.0001924653471217475	Citrobacter youngae	Citrobacter youngae	Citrobacter	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	89.0442853112236
+3417654	0.0006109762719924421	Cetobacterium sp. SF1	Cetobacterium sp. SF1	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	282.6687832135753
+2681308	6.028792957852688e-05	Leclercia sp. 119287	Leclercia sp. 119287	Leclercia	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	27.89227090743504
+929813	2.665695054282009e-05	Gibbsiella quercinecans	Gibbsiella quercinecans	Gibbsiella	Yersiniaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	12.332864825586258
+615	8.039769580547489e-05	Serratia marcescens	Serratia marcescens	Serratia	Yersiniaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	37.19607436209876
+539813	5.367628843680441e-05	Enterobacter mori	Enterobacter mori	Enterobacter	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	24.833388521575998
+703	9.29135083225504e-05	Plesiomonas shigelloides	Plesiomonas shigelloides	Plesiomonas	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	42.986527538936265
+562	4.550852167124698e-05	Escherichia coli	Escherichia coli	Escherichia	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	21.054563059724085
+244366	6.430665789385984e-05	Klebsiella variicola	Klebsiella variicola	Klebsiella	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	29.751539581252146
+94869	2.1607792634335647e-05	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	9.996866870068022
+unmapped	0.0										0.0
+mapped_unclassified	0.0										174.0

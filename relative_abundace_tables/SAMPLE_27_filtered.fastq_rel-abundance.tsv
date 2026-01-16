@@ -1,0 +1,23 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+1319815	0.012582312595104679	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	5304.463926156825
+188913	0.8770752247692853	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	369758.2503334601
+94869	0.08707170314880955	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	36707.775685178276
+2590015	0.013450085738070787	Shewanella sp. SNU WT4	Shewanella sp. SNU WT4	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	5670.30059554162
+2739061	0.0065032860331141066	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2741.661829126278
+876	0.000507628270271015	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	214.00643380912476
+631220	0.00013036733253996043	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	54.96039041952906
+3376682	6.0443224176413046e-05	Clostridium sp. MB05	Clostridium sp. MB05	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	25.48171489151639
+189381	0.0006549516207082281	Rossellomorea marisflavi	Rossellomorea marisflavi	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	276.1151592097955
+1404	0.00010689754074485547	Priestia megaterium	Priestia megaterium	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	45.06597212475692
+3135646	0.00014941904452450355	Niveibacterium sp. SC-1	Niveibacterium sp. SC-1	Niveibacterium	Rhodocyclaceae	Rhodocyclales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	62.992230209684735
+3070656	0.00024903174087417254	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	104.98705034947453
+3073271	0.0003442632501700056	Peribacillus sp. R9-11	Peribacillus sp. R9-11	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	145.13484526992113
+3238594	0.0004156109133352172	Clostridium sp. HCS.1	Clostridium sp. HCS.1	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	175.2136644547742
+2119	0.000374733476743993	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	157.9805138592093
+2751	0.00015890596798637677	Carnobacterium maltaromaticum	Carnobacterium maltaromaticum	Carnobacterium	Carnobacteriaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	66.99173688966471
+2723088	3.2801396596460676e-05	Mucilaginibacter sp. X5P1	Mucilaginibacter sp. X5P1	Mucilaginibacter	Sphingobacteriaceae	Sphingobacteriales	Sphingobacteriia	Bacteroidota	Pseudomonadati	Bacteria	13.828445578532488
+3341726	3.360706763665201e-05	Arcticibacter sp. MXS-1	Arcticibacter sp. MXS-1	Arcticibacter	Sphingobacteriaceae	Sphingobacteriales	Sphingobacteriia	Bacteroidota	Pseudomonadati	Bacteria	14.16810118132739
+1742359	4.180532726357262e-05	Cytobacillus dafuensis	Cytobacillus dafuensis	Cytobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	17.62433167310421
+2696560	5.692154077123944e-05	Aquirufa lenticrescens	Aquirufa lenticrescens	Aquirufa	Flectobacillaceae	Cytophagales	Cytophagia	Bacteroidota	Pseudomonadati	Bacteria	23.997040079879895
+unmapped	0.0										1.0
+mapped_unclassified	0.0										154.0

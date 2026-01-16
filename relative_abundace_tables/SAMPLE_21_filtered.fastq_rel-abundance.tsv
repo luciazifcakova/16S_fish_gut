@@ -1,0 +1,23 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.9396918178003063	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	216399.74933759694
+2739061	0.008031849539579652	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	1849.638566770719
+876	0.015323420418495387	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	3528.799841334466
+631220	0.0015356619997572783	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	353.6445306001041
+2666132	0.0001333898249907	Desulfovibrio sp. 86	Desulfovibrio sp. 86	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	30.718076017458323
+1981031	0.0006043939944710342	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	139.18468419874552
+1319815	0.00013725882601689824	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	31.609060525779462
+188913	0.03130417596621712	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	7208.976074908207
+881	0.00028689356215503984	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	66.06814464155981
+2718620	5.114314499736628e-05	Desulfovibrio subterraneus	Desulfovibrio subterraneus	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	11.777652575153486
+2588536	0.000145276610344724	Candidatus Methylopumilus universalis	Candidatus Methylopumilus universalis	Candidatus Methylopumilus	Methylophilaceae	Nitrosomonadales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.4554600430658
+1581557	0.0003713666843633719	Candidatus Methylopumilus planktonicus	Candidatus Methylopumilus planktonicus	Candidatus Methylopumilus	Methylophilaceae	Nitrosomonadales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	85.52129100867218
+2116	5.1944491695115825e-05	Malacoplasma iowae	Malacoplasma iowae	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	11.962193103484832
+94869	0.00020839393399990449	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	47.99062227297001
+2828656	0.0008509418971662766	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	195.9617076146275
+696127	0.0008726495986246001	Candidatus Midichloria mitochondrii IricVA	Candidatus Midichloria mitochondrii	Candidatus Midichloria	Candidatus Midichloriaceae	Rickettsiales	Alphaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	200.9607307680619
+3073271	9.551544064489948e-05	Peribacillus sp. R9-11	Peribacillus sp. R9-11	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	21.99605979523261
+189381	0.00012590311422999904	Rossellomorea marisflavi	Rossellomorea marisflavi	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	28.99397636979802
+3135776	7.389159269177916e-05	Luteolibacter sp. AS25	Luteolibacter sp. AS25	Luteolibacter	Verrucomicrobiaceae	Verrucomicrobiales	Verrucomicrobiia	Verrucomicrobiota	Pseudomonadati	Bacteria	17.016347097804438
+2824561	0.0001041115592664726	Luteolibacter ambystomatis	Luteolibacter ambystomatis	Luteolibacter	Verrucomicrobiaceae	Verrucomicrobiales	Verrucomicrobiia	Verrucomicrobiota	Pseudomonadati	Bacteria	23.97564276035744
+unmapped	0.0										0.0
+mapped_unclassified	0.0										104.0

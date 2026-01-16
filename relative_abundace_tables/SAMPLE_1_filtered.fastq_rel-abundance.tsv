@@ -1,0 +1,27 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+519081	0.00060713981224239	Aquitalea denitrificans	Aquitalea denitrificans	Aquitalea	Chromobacteriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	17.440091106662653
+748280	0.0012031299875835454	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania	Chromobacteriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	34.559908893337344
+2739061	0.36842471714534375	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10583.0
+1319815	0.015393041773130979	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	442.16512493318737
+188913	0.3023789338578757	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	8685.83487506748
+2119	0.28181026979982593	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	8095.0
+1308	0.001671018276762402	Streptococcus thermophilus	Streptococcus thermophilus	Streptococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	48.0
+2821543	0.0009399477806788512	Chloracidobacterium validum	Chloracidobacterium validum	Chloracidobacterium	Acidobacteriaceae	Terriglobales	Terriglobia	Acidobacteriota	Pseudomonadati	Bacteria	27.0
+3237105	0.0022063403915748465	Niallia tiangongensis	Niallia tiangongensis	Niallia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	63.377127747987466
+2912824	0.0005786900696958236	Niallia sp. Man26	Niallia sp. Man26	Niallia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	16.622872252012534
+3070656	0.004908616187989556	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	141.0
+2828656	0.001566579634464752	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	45.0
+3135646	0.0038634999952897437	Niveibacterium sp. SC-1	Niveibacterium sp. SC-1	Niveibacterium	Rhodocyclaceae	Rhodocyclales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	110.97903736469789
+1553431	0.0008363725650070767	Mycoavidus cysteinexigens	Mycoavidus cysteinexigens	Mycoavidus	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	24.02480192982828
+2571748	0.0008921136968416259	Paraburkholderia acidisoli	Paraburkholderia acidisoli	Paraburkholderia	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	25.625965941775704
+1282	0.0006614447345517842	Staphylococcus epidermidis	Staphylococcus epidermidis	Staphylococcus	Staphylococcaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	19.0
+876	0.0004873803307223673	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	14.0
+94869	0.00793733681462141	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	228.0
+2880218	0.0005518933663937362	Paraburkholderia sp. D15	Paraburkholderia sp. D15	Paraburkholderia	Burkholderiaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.853136949660072
+2033033	0.0003828458467438068	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10.99724694771585
+197700	0.0005222890531691609	Aeromonas salmonicida subsp. masoucida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.002753052284147
+2843216	0.0004525674499564839	Miltoncostaea oceani	Miltoncostaea oceani	Miltoncostaea	Miltoncostaeaceae	Miltoncostaeales	Thermoleophilia	Actinomycetota	Bacillati	Bacteria	13.0
+511	0.0006446321258150758	Alcaligenes faecalis	Alcaligenes faecalis	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	18.517057814038054
+1597	0.0010791993037423846	Lacticaseibacillus paracasei	Lacticaseibacillus paracasei	Lacticaseibacillus	Lactobacillaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	31.0
+unmapped	0.0										3.0
+mapped_unclassified	0.0										17.0

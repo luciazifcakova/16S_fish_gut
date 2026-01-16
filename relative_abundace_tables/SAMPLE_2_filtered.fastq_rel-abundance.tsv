@@ -1,0 +1,19 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+3070656	0.9397534823688489	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	336361.2651768703
+2033033	0.021363154575133266	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	7646.407101304574
+645	0.00013173027871160367	Aeromonas salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	47.149560007850745
+654	0.0015921809584699017	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	569.8813695603395
+2739061	0.00022908483402524403	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	81.99518921848546
+188913	0.02884575617899284	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	10324.617280366012
+1319815	0.00018934967496190527	Cetobacterium somerae ATCC BAA-474	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	67.77298241073994
+2778066	0.0026523930613942164	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	949.3577864995249
+2033032	0.00013874621867907767	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	49.660740320708875
+631220	8.41777553717068e-05	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	30.129323091418154
+2119	0.003053533214507216	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	1092.9358758024953
+2828656	0.0007962094841121286	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	284.9832796008336
+24	0.0002342271072042339	Shewanella putrefaciens	Shewanella putrefaciens	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	83.83573734607542
+2726434	8.146296895250475e-05	Shewanella oncorhynchi	Shewanella oncorhynchi	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	29.157633162325265
+876	0.0008181929932887061	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	292.85172712286015
+3366811	3.631832734546552e-05	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	12.999237315125747
+unmapped	0.0										0.0
+mapped_unclassified	0.0										51.0

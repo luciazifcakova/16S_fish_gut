@@ -1,0 +1,65 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.7171498741917658	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	354008.84384690394
+3366814	0.00017271643785167446	Desulfovibrio sp. WGS1351	Desulfovibrio sp. WGS1351	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	85.25853336603562
+631220	0.1253710920713064	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	61887.30829243519
+1981031	0.0005996313911592469	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	295.9978425121125
+189381	0.015058232310775367	Rossellomorea marisflavi	Rossellomorea marisflavi	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	7433.240390264977
+3243076	0.0004280774730779288	Rossellomorea sp. FM04394	Rossellomorea sp. FM04394	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	211.31316726787722
+3073271	0.009091663564975483	Peribacillus sp. R9-11	Peribacillus sp. R9-11	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	4487.945160569542
+421767	0.00012787169055933194	Peribacillus butanolivorans	Peribacillus butanolivorans	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	63.121686225874704
+1349754	0.0001230873699801981	Peribacillus simplex NBRC 15720 = DSM 1321	Peribacillus simplex	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	60.75998770543514
+1478	8.717635554903801e-05	Peribacillus simplex	Peribacillus simplex	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	43.03312591873828
+859143	0.0001946947010490117	Cytobacillus kochii	Cytobacillus kochii	Cytobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	96.10772936292679
+3064703	0.0006506046863204326	Niallia sp. Krafla_26	Niallia sp. Krafla_26	Niallia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	321.1599431224141
+2033033	0.03501862327702548	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	17286.34806410792
+654	0.0006276216103211102	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	309.8147383676406
+73010	2.2893717353568056e-05	Aeromonas encheleia	Aeromonas encheleia	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.301094378393861
+948519	6.506862058074485e-05	Aeromonas rivipollensis	Aeromonas rivipollensis	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	32.12001838313483
+645	0.00020955148384241295	Aeromonas salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	103.44152762358183
+2778053	2.0802478074552865e-05	Aeromonas sp. FDAARGOS 1404	Aeromonas sp. FDAARGOS 1404	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10.268789659375754
+94869	0.060743128305758815	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	29984.81265495664
+1396	0.00032427240512956446	Bacillus cereus	Bacillus cereus	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	160.07156016132228
+288681	3.8397536002763406e-05	Bacillus cereus E33L	Bacillus cereus	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	18.954290889652107
+1404	0.001181145755411102	Priestia megaterium	Priestia megaterium	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	583.0525226808485
+2116	4.85848527052015e-05	Malacoplasma iowae	Malacoplasma iowae	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	23.983086595426734
+2787751	0.0015359487932392274	Taurinivorans muris	Taurinivorans muris	Taurinivorans	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	758.1950106530595
+197700	0.00025111863515665973	Aeromonas salmonicida subsp. masoucida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	123.96044522828741
+2033032	0.00011590092632559014	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	57.21252196488004
+644	0.00012640716700806548	Aeromonas hydrophila	Aeromonas hydrophila	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	62.398749071692386
+86664	0.001490036252553014	Priestia flexa	Priestia flexa	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	735.531065456502
+2778066	0.0009366887867786725	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	462.3804958839164
+1742359	0.0007646077283424893	Cytobacillus dafuensis	Cytobacillus dafuensis	Cytobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	377.43560676488806
+876	0.002634509226130353	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	1300.4806928224045
+2666132	0.00029619940274019306	Desulfovibrio sp. 86	Desulfovibrio sp. 86	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	146.2137997728497
+207559	0.00035371971949839007	Oleidesulfovibrio alaskensis G20	Oleidesulfovibrio alaskensis	Oleidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	174.60772629514878
+272633	0.0004554669952208409	Malacoplasma penetrans HF-2	Malacoplasma penetrans	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	224.83353925184937
+220684	2.857029447846571e-05	Neobacillus drentensis	Neobacillus drentensis	Neobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	14.103240174288464
+703	0.009384210435363274	Plesiomonas shigelloides	Plesiomonas shigelloides	Plesiomonas	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	4632.355949839679
+1636609	3.121311518965708e-05	Aeromonas sp. ASNIH4	Aeromonas sp. ASNIH4	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.407823690415995
+371036	7.935078372404072e-05	Gottfriedia acidiceleris	Gottfriedia acidiceleris	Gottfriedia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	39.170165422049394
+35833	0.00018260197318137499	Bilophila wadsworthia	Bilophila wadsworthia	Bilophila	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	90.13835982744168
+218284	9.792322008057183e-05	Rossellomorea vietnamensis	Rossellomorea vietnamensis	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	48.33813289803291
+1547283	2.7601811683717755e-05	Bacillus weihaiensis	Bacillus weihaiensis	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	13.625165106868646
+1428	0.00018049375262152244	Bacillus thuringiensis	Bacillus thuringiensis	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	89.09767258781999
+2026186	4.7437713131486256e-05	Bacillus paranthracis	Bacillus paranthracis	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	23.416820646234957
+1392	8.456758279701665e-05	Bacillus anthracis	Bacillus anthracis	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	41.745349598839724
+64104	7.896196375786096e-05	Bacillus pseudomycoides	Bacillus pseudomycoides	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	38.97823105568418
+2739061	0.005524500811162143	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2727.0759089164026
+573059	3.406440432069698e-05	Nitratidesulfovibrio vulgaris RCH1	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	16.81531409803861
+881	4.270861491232301e-05	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	21.082381705014743
+2604158	0.00010284893257557854	Nitratidesulfovibrio liaohensis	Nitratidesulfovibrio liaohensis	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	50.769627134080565
+1502	0.006171925947710087	Clostridium perfringens	Clostridium perfringens	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	3046.6663213459733
+37763	4.1474685597191306e-05	Clostridium perfringens A	Clostridium perfringens	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	20.473273475398337
+3376682	0.0002784694410955449	Clostridium sp. MB05	Clostridium sp. MB05	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	137.46170561631712
+3238594	3.080881578180173e-05	Clostridium sp. HCS.1	Clostridium sp. HCS.1	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	15.208248160818133
+2529386	3.9094798447997425e-05	Bacillus sp. SYJ	Bacillus sp. SYJ	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	19.298482642280312
+450367	0.00017208022339330103	Peribacillus frigoritolerans	Peribacillus frigoritolerans	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	84.94447691430537
+46867	0.00012556732850553816	Clostridium chauvoei	Clostridium chauvoei	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	61.98417707217432
+1561	9.469651429028304e-05	Clostridium baratii	Clostridium baratii	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	46.74532443865529
+3160967	3.776446331865063e-05	Bacillus haimaensis	Bacillus haimaensis	Bacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	18.641785321375465
+61646	0.00029575730027386584	Lelliottia amnigena	Lelliottia amnigena	Lelliottia	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	145.99556340608922
+1742358	3.9294768389235506e-05	Cytobacillus praedii	Cytobacillus praedii	Cytobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	19.39719440428349
+3445778	0.00011052826474890701	Neobacillus sp. D3-1R	Neobacillus sp. D3-1R	Neobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	54.56039891279721
+3070656	0.00032006611998833175	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	157.99519900820016
+unmapped	0.0										0.0
+mapped_unclassified	0.0										42.0

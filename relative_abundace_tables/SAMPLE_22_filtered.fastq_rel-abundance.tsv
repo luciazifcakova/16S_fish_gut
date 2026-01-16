@@ -1,0 +1,24 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.983477150323063	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	234012.4870564709
+3366811	0.0007228779805153273	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	172.00447819573904
+3416924	0.00028719726823652874	Alcaligenes sp. HNGD-HTN06	Alcaligenes sp. HNGD-HTN06	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	68.33686679327259
+3078429	0.00013034898949356363	Alcaligenes sp. SJTW-7	Alcaligenes sp. SJTW-7	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	31.015759956056506
+2582914	0.00014604803954623542	Alcaligenes ammonioxydans	Alcaligenes ammonioxydans	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	34.751254721789444
+3445768	6.0596501158324415e-05	Parapusillimonas sp. JC17	Parapusillimonas sp. JC17	Parapusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	14.418573871616344
+876	0.011373877939169118	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	2706.346012357657
+881	0.00022404095610054848	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio vulgaris	Nitratidesulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	53.30920125838891
+631220	0.0013900431866845336	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	330.75243601246467
+2666132	0.00011983914445998674	Desulfovibrio sp. 86	Desulfovibrio sp. 86	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	28.515005389387085
+1981031	0.0006507374697384569	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	154.83907649944737
+3070656	0.0002772713141820076	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	65.97504558172362
+2828656	0.0002562659115924616	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	60.976936067956686
+1173025	0.0001055868456217101	Geitlerinema sp. PCC 7407	Geitlerinema sp. PCC 7407	Geitlerinema	Geitlerinemataceae	Geitlerinematales	Cyanophyceae	Cyanobacteriota	Bacillati	Bacteria	25.123756394612187
+46234	9.606501923793179e-05	Anabaena sp. 90	Anabaena sp. 90	Anabaena	Nostocaceae	Nostocales	Cyanophyceae	Cyanobacteriota	Bacillati	Bacteria	22.85809493755044
+1290	0.0003318853609148273	Staphylococcus hominis	Staphylococcus hominis	Staphylococcus	Staphylococcaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	78.97013031751767
+2824561	5.0412966214910474e-05	Luteolibacter ambystomatis	Luteolibacter ambystomatis	Luteolibacter	Verrucomicrobiaceae	Verrucomicrobiales	Verrucomicrobiia	Verrucomicrobiota	Pseudomonadati	Bacteria	11.995462833040659
+1007105	8.9700758174969e-05	Pusillimonas sp. T7-7	Pusillimonas sp. T7-7	Pusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	21.343757203184822
+679663	7.141836880445651e-05	Corynebacterium canis	Corynebacterium canis	Corynebacterium	Corynebacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	Bacillati	Bacteria	16.9935723468076
+3374103	8.402161035818412e-05	Limnohabitans sp. DCL3	Limnohabitans sp. DCL3	Limnohabitans	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	19.992438055067762
+1869339	5.4614046732819684e-05	Polaromonas sp.	Polaromonas sp.	Polaromonas	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	12.995084735794046
+unmapped	0.0										2.0
+mapped_unclassified	0.0										150.0

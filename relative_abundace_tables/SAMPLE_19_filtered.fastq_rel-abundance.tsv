@@ -1,0 +1,23 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.13981197965455613	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	61788.9257244735
+171287	0.525270351871816	Mesomycoplasma moatsii	Mesomycoplasma moatsii	Mesomycoplasma	Metamycoplasmataceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	232139.55511728599
+2125	0.28368027885985453	Metamycoplasma sualvi	Metamycoplasma sualvi	Metamycoplasma	Metamycoplasmataceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	125370.51348016069
+171286	0.0003145218218646589	Mesomycoplasma lagogenitalium	Mesomycoplasma lagogenitalium	Mesomycoplasma	Metamycoplasmataceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	139.00071752033296
+2100	0.00015539732270321565	Mesomycoplasma hyorhinis	Mesomycoplasma hyorhinis	Mesomycoplasma	Metamycoplasmataceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	68.67675898742723
+292461	0.0002607617576311998	Mycoplasma iguanae	Mycoplasma iguanae	Mycoplasma	Mycoplasmataceae	Mycoplasmatales	Mollicutes	Mycoplasmatota	Bacillati	Bacteria	115.24183345280532
+2033033	0.029078684889057505	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	12851.12123592474
+654	0.004642841700878578	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2051.8713898113815
+645	4.651893138094033e-05	Aeromonas salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	20.558716091286914
+197700	2.582485503690672e-05	Aeromonas salmonicida subsp. masoucida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.413113909575667
+2033032	5.9551680412246395e-05	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	26.31844829642941
+2778066	0.0015259480272674444	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	674.3820490146562
+171288	7.756997830097514e-05	Mesomycoplasma molare	Mesomycoplasma molare	Mesomycoplasma	Metamycoplasmataceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	34.28150892026786
+2739061	0.014220656326216902	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	6284.719518777277
+2865840	0.0004442034583717916	Deefgea tanakiae	Deefgea tanakiae	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	196.3126090032047
+272633	3.6499669370374135e-05	Malacoplasma penetrans HF-2	Malacoplasma penetrans	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	16.130773380551258
+703	5.6559934299980316e-05	Plesiomonas shigelloides	Plesiomonas shigelloides	Plesiomonas	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	24.9962670443362
+876	0.00021867655797203197	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	96.64257405983372
+631220	2.339996083188382e-05	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	10.341448889925232
+2828656	4.977274218398268e-05	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	21.996714999015857
+unmapped	0.0										0.0
+mapped_unclassified	0.0										146.0

@@ -1,0 +1,13 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.8931539374752672	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	11285.0
+1987723	0.0019946166751662387	Cellvibrio sp. PSBB006	Cellvibrio sp. PSBB006	Cellvibrio	Cellvibrionaceae	Cellvibrionales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	25.201981690725425
+3374103	0.03719825880490701	Limnohabitans sp. DCL3	Limnohabitans sp. DCL3	Limnohabitans	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	470.00000000000006
+2828656	0.05825089038385437	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	736.0
+2516557	0.002770083102493075	Aquirufa nivalisilvae	Aquirufa nivalisilvae	Aquirufa	Flectobacillaceae	Cytophagales	Cytophagia	Bacteroidota	Pseudomonadati	Bacteria	35.0
+1925548	0.0007914523149980214	Candidatus Fonsibacter ubiquis	Candidatus Fonsibacter ubiquis	Candidatus Fonsibacter		Candidatus Pelagibacterales	Alphaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10.0
+876	0.001187178472497032	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	15.0
+3093895	0.0030075187969924814	Variovorax sp. W6	Variovorax sp. W6	Variovorax	Comamonadaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	38.0
+2303332	0.0008546116588266384	Cellvibrio sp. KY-GH-1	Cellvibrio sp. KY-GH-1	Cellvibrio	Cellvibrionaceae	Cellvibrionales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	10.798018309274577
+36807	0.0007914523149980214	Microbacterium laevaniformans	Microbacterium laevaniformans	Microbacterium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	Bacillati	Bacteria	10.0
+unmapped	0.0										2.0
+mapped_unclassified	0.0										20.0

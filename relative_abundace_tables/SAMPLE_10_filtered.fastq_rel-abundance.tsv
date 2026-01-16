@@ -1,0 +1,13 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.9802301968196862	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	278901.95721051487
+2739061	0.017897170321755567	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	5092.228180138146
+188913	0.0007834842916669594	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	222.92243505512496
+2828656	0.0006921363473470449	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	196.93147850161265
+2033032	5.621411958148588e-05	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	15.994434802161434
+1359	8.616775291812226e-05	Lactococcus cremoris	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	24.51705223453457
+1104322	6.0006133243558244e-05	Lactococcus cremoris subsp. cremoris A76	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	17.073365073389898
+1111678	4.003538495199144e-05	Lactococcus cremoris subsp. cremoris UC509.9	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	11.391147974235269
+1909290	5.972750205532875e-05	Polymorphobacter sp.	Polymorphobacter sp.	Polymorphobacter	Sphingosinicellaceae	Sphingomonadales	Alphaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	16.994086977296522
+748280	9.486132679375742e-05	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania	Chromobacteriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	26.990608728647416
+unmapped	0.0										0.0
+mapped_unclassified	0.0										132.0

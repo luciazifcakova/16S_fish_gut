@@ -1,0 +1,19 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+1502	0.00016255811546856606	Clostridium perfringens	Clostridium perfringens	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	47.99512103397866
+2119	0.8592640299311242	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	253696.8455731345
+272622	8.380800420138382e-05	Lactococcus cremoris subsp. cremoris SK11	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	24.74422943245437
+1104322	0.0019250345244480663	Lactococcus cremoris subsp. cremoris A76	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	568.3645183087672
+1359	0.013829830286374328	Lactococcus cremoris	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	4083.243562221734
+1111678	0.0033160926779515817	Lactococcus cremoris subsp. cremoris UC509.9	Lactococcus cremoris	Lactococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	979.0730470725265
+3070656	0.11487460244169316	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	33916.611496307465
+1561	0.004678143047939321	Clostridium baratii	Clostridium baratii	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	1381.2170567610365
+1520	0.0002019872770162518	Clostridium beijerinckii	Clostridium beijerinckii	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	59.63654155177133
+272633	5.884779258580693e-05	Malacoplasma penetrans HF-2	Malacoplasma penetrans	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	17.37475191316691
+2739061	0.0007721510842288141	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	227.97683546747314
+169435	3.705733980529243e-05	Anaerotruncus colihominis	Anaerotruncus colihominis	Anaerotruncus	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	10.941142520172786
+2828656	0.0005215406446106903	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	153.98435378066168
+748280	4.741278587369911e-05	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania sp. NH8B	Pseudogulbenkiania	Chromobacteriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	13.998577616423788
+28449	0.00017271800568276105	Neisseria subflava	Neisseria subflava	Neisseria	Neisseriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	50.99481845982952
+2724150	5.418604099851327e-05	Romboutsia sp. CE17	Romboutsia sp. CE17	Romboutsia	Peptostreptococcaceae	Peptostreptococcales	Clostridia	Bacillota	Bacillati	Bacteria	15.998374418770045
+unmapped	0.0										1.0
+mapped_unclassified	0.0										55.0

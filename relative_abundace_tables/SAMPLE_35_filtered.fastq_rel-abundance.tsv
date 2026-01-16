@@ -1,0 +1,23 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2828656	0.05439442658092176	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	609.0
+2033033	0.051296284360819455	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	574.3131997037347
+2778066	0.001847695632035135	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	20.68680029626537
+416213	0.002947482619300716	Ferrovum myxofaciens	Ferrovum myxofaciens	Ferrovum	Ferrovaceae	Ferrovales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.00001540569082
+3366811	0.02959418152367467	Alcaligenes sp. WGS1538	Alcaligenes sp. WGS1538	Alcaligenes	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	331.3364563390616
+1007105	0.006043544860240031	Pusillimonas sp. T7-7	Pusillimonas sp. T7-7	Pusillimonas	Alcaligenaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	67.66352825524739
+631220	0.46747101135081875	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	5233.8054430837665
+1597	0.011432654519471239	Lacticaseibacillus paracasei	Lacticaseibacillus paracasei	Lacticaseibacillus	Lactobacillaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	127.99999999999999
+2787751	0.004484133348697326	Taurinivorans muris	Taurinivorans muris	Taurinivorans	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	50.20435697201526
+2739061	0.2491961414790997	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	2790.0
+61648	0.017684887459807074	Kluyvera intermedia	Kluyvera intermedia	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	198.0
+876	0.017326741688483843	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	193.9901999442651
+1282	0.00964630225080386	Staphylococcus epidermidis	Staphylococcus epidermidis	Staphylococcus	Staphylococcaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	108.00000000000001
+2119	0.022061450518042158	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	247.0
+946333	0.0012486002535282929	Piscinibacter gummiphilus	Piscinibacter gummiphilus	Piscinibacter	Sphaerotilaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	13.979328438502767
+3350177	0.004272553855526025	Roseateles sp. UC29_93	Roseateles sp. UC29_93	Roseateles	Sphaerotilaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	47.83551296646938
+2917965	0.006268770864150398	Roseateles chitinivorans	Roseateles chitinivorans	Roseateles	Sphaerotilaceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	70.18515859502786
+1308	0.022329403358342267	Streptococcus thermophilus	Streptococcus thermophilus	Streptococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	250.00000000000003
+1262462	0.017416934619506965	Yersinia enterocolitica (type O:5) str. YE53/03	Yersinia enterocolitica	Yersinia	Yersiniaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	194.99999999999997
+1940610	0.003036798856734548	Phreatobacter stygius	Phreatobacter stygius	Phreatobacter	Phreatobacteraceae	Hyphomicrobiales	Alphaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	34.0
+unmapped	0.0										5.0
+mapped_unclassified	0.0										24.0

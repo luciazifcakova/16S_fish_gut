@@ -1,0 +1,25 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2739061	0.336173092012198	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	58204.33680480794
+2865840	6.905361707211353e-05	Deefgea tanakiae	Deefgea tanakiae	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	11.955805152631592
+2119	0.654043845869525	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	113239.84338615782
+2828656	0.0008778414341156903	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	151.98771021992238
+679663	0.00019058399556459065	Corynebacterium canis	Corynebacterium canis	Corynebacterium	Corynebacteriaceae	Mycobacteriales	Actinomycetes	Actinomycetota	Bacillati	Bacteria	32.997331824062094
+189381	0.0026947046798764572	Rossellomorea marisflavi	Rossellomorea marisflavi	Rossellomorea	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	466.5557788644501
+3073271	0.0013520656370260504	Peribacillus sp. R9-11	Peribacillus sp. R9-11	Peribacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	234.0939402634163
+3064703	7.275194028959192e-05	Niallia sp. Krafla_26	Niallia sp. Krafla_26	Niallia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	12.596125437859367
+1404	0.0002468516130951937	Priestia megaterium	Priestia megaterium	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	42.739394588075655
+1742359	0.00015071992418393867	Cytobacillus dafuensis	Cytobacillus dafuensis	Cytobacillus	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	26.09534623335877
+86664	0.0003168093657579291	Priestia flexa	Priestia flexa	Priestia	Bacillaceae	Bacillales	Bacilli	Bacillota	Bacillati	Bacteria	54.85173996859633
+2724150	0.0010282438242173266	Romboutsia sp. CE17	Romboutsia sp. CE17	Romboutsia	Peptostreptococcaceae	Peptostreptococcales	Clostridia	Bacillota	Bacillati	Bacteria	178.0280792373395
+1505	9.367016015757887e-05	Paraclostridium sordellii	Paraclostridium sordellii	Paraclostridium	Peptostreptococcaceae	Peptostreptococcales	Clostridia	Bacillota	Bacillati	Bacteria	16.21786418936289
+876	0.001203097694187765	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	208.30192857628126
+631220	0.00013676554735723504	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	23.67931333833696
+1520	0.00015593274825560595	Clostridium beijerinckii	Clostridium beijerinckii	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	26.997884167479103
+188913	0.0002887636296433192	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	49.995957309184995
+3058402	6.779216975556992e-05	Terrisporobacter vanillatitrophus	Terrisporobacter vanillatitrophus	Terrisporobacter	Peptostreptococcaceae	Peptostreptococcales	Clostridia	Bacillota	Bacillati	Bacteria	11.737400687139864
+94869	0.00032365303993976815	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	56.03664002909158
+3238594	0.00032317710221305325	Clostridium sp. HCS.1	Clostridium sp. HCS.1	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	55.95423712296361
+36805	8.085381630012937e-05	Microbacterium aurum	Microbacterium aurum	Microbacterium	Microbacteriaceae	Micrococcales	Actinomycetes	Actinomycetota	Bacillati	Bacteria	13.998868046571799
+2843216	0.00010973017926446129	Miltoncostaea oceani	Miltoncostaea oceani	Miltoncostaea	Miltoncostaeaceae	Miltoncostaeales	Thermoleophilia	Actinomycetota	Bacillati	Bacteria	18.998463777490297
+unmapped	0.0										9.0
+mapped_unclassified	0.0										101.0

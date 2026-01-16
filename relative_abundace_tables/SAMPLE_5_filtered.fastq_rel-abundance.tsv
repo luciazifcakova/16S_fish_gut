@@ -1,0 +1,21 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+3070656	0.7878755592819038	Paludihabitans sp. MB14-C6	Paludihabitans sp. MB14-C6	Paludihabitans	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	326356.9656679873
+197700	0.053846455173298724	Aeromonas salmonicida subsp. masoucida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	22304.49404770449
+2033032	0.008092911243070726	Aeromonas sp. CA23	Aeromonas sp. CA23	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	3352.2780667497286
+1324960	0.0002691796583736738	Aeromonas salmonicida subsp. pectinolytica 34mel	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	111.50067481017666
+73010	8.905683199614889e-05	Aeromonas encheleia	Aeromonas encheleia	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	36.88947717677278
+645	0.06315665931900158	Aeromonas salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	26161.00404975411
+29491	0.00029999949591807767	Aeromonas salmonicida subsp. salmonicida	Aeromonas salmonicida	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	124.2669911971698
+332186	5.0914750701231586e-05	Shewanella xiamenensis	Shewanella xiamenensis	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	21.09011169446695
+2033033	0.056584142858057206	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	23438.50999123589
+654	0.009940376960267222	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	4117.54270598973
+644	9.077137310339203e-05	Aeromonas hydrophila	Aeromonas hydrophila	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	37.59968125237946
+2778066	0.010632190085767802	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	4404.108306087082
+3136601	4.8508095746207814e-05	Owariibacterium komagatae	Owariibacterium komagatae	Owariibacterium	Oscillospiraceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	20.093217452377186
+2119	0.007987698606196079	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	3308.6964674529645
+188913	0.0005141673626835191	Cetobacterium somerae	Cetobacterium somerae	Cetobacterium	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacteriota	Fusobacteriati	Bacteria	212.980461640218
+2739061	0.00027277398204698206	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	112.9895299394291
+580	0.00016656125833409773	Kluyvera cryocrescens	Kluyvera cryocrescens	Kluyvera	Enterobacteriaceae	Enterobacterales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	68.9936706721833
+94869	8.207366352694671e-05	Clostridium gasigenes	Clostridium gasigenes	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	33.99688120078597
+unmapped	0.0										0.0
+mapped_unclassified	0.0										74.0

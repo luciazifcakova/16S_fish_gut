@@ -1,0 +1,22 @@
+tax_id	abundance	organism_name	Species	Genus	Family	Order	Class	Phylum	Kingdom	Domain	estimated counts
+2119	0.9235724497519132	Malacoplasma muris	Malacoplasma muris	Malacoplasma	Mycoplasmoidaceae	Mycoplasmoidales		Mycoplasmatota	Bacillati	Bacteria	109822.0
+654	0.0023183573865778496	Aeromonas veronii	Aeromonas veronii	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	275.6758768379721
+656	0.00028225178247012886	Aeromonas allosaccharophila	Aeromonas allosaccharophila	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	33.56255945352302
+2778066	0.0006459452810877381	Aeromonas sp. FDAARGOS 1417	Aeromonas sp. FDAARGOS 1417	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	76.80935337414294
+2739061	0.0075855689176688255	Deefgea piscis	Deefgea piscis	Deefgea	Chitinibacteraceae	Neisseriales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	902.0
+3238594	0.00023168944395500317	Clostridium sp. HCS.1	Clostridium sp. HCS.1	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	27.550191780689428
+3376682	0.011289629200397886	Clostridium sp. MB05	Clostridium sp. MB05	Clostridium	Clostridiaceae	Eubacteriales	Clostridia	Bacillota	Bacillati	Bacteria	1342.4498082193127
+2751	0.022908081742494323	Carnobacterium maltaromaticum	Carnobacterium maltaromaticum	Carnobacterium	Carnobacteriaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	2724.0
+876	0.0053858853126242745	Desulfovibrio desulfuricans	Desulfovibrio desulfuricans	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	640.4356225241524
+631220	0.01602644563493393	Desulfovibrio sp. G11	Desulfovibrio sp. G11	Desulfovibrio	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	1905.7046504499936
+1981031	0.00025625344796444176	uncultured Mailhella sp.	uncultured Mailhella sp.	Mailhella	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	30.47109749745177
+1308	0.0011269026995206458	Streptococcus thermophilus	Streptococcus thermophilus	Streptococcus	Streptococcaceae	Lactobacillales	Bacilli	Bacillota	Bacillati	Bacteria	134.0
+2787751	0.0002723793585770664	Taurinivorans muris	Taurinivorans muris	Taurinivorans	Desulfovibrionaceae	Desulfovibrionales	Desulfovibrionia	Thermodesulfobacteriota	Pseudomonadati	Bacteria	32.388629528398965
+1054033	0.0011689513077117147	Arcobacter venerupis	Arcobacter venerupis	Arcobacter	Arcobacteraceae	Campylobacterales	Epsilonproteobacteria	Campylobacterota	Pseudomonadati	Bacteria	139.0
+2033033	0.0056761602080090965	Aeromonas sp. CU5	Aeromonas sp. CU5	Aeromonas	Aeromonadaceae	Aeromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	674.9522103343617
+1747	0.00037843747371961987	Cutibacterium acnes	Cutibacterium acnes	Cutibacterium	Propionibacteriaceae	Propionibacteriales	Actinomycetes	Actinomycetota	Bacillati	Bacteria	45.0
+401471	0.0004961735766546128	Undibacterium parvum	Undibacterium parvum	Undibacterium	Oxalobacteraceae	Burkholderiales	Betaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	59.00000000000001
+2726434	0.00024388192750819947	Shewanella oncorhynchi	Shewanella oncorhynchi	Shewanella	Shewanellaceae	Alteromonadales	Gammaproteobacteria	Pseudomonadota	Pseudomonadati	Bacteria	29.0
+2828656	0.0001345555462114204	Thermospira aquatica	Thermospira aquatica	Thermospira	Thermospiraceae	Brevinematales	Spirochaetia	Spirochaetota	Pseudomonadati	Bacteria	16.0
+unmapped	0.0										5.0
+mapped_unclassified	0.0										36.0
