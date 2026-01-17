@@ -13,6 +13,7 @@ My pipeline logic:
 5. pathogen detection via list comparison, see NEMESISdb below 
 6. diversity indices and ordination plots, final tables (build Docker image)
 
+I implemented a modified version of the TRANA pipeline for full-length Nanopore 16S rRNA data and extended it with custom post-processing and ecological analysis modules. In addition to taxonomic profiling using the EMU classifier with a curated RiboGrove database, I developed reproducible downstream workflows for quality control aggregation, abundance table generation, alpha and beta diversity analyses, ordination, clustering, pathogen-focused sub-analyses, and interactive visualization. The entire workflow is containerized using Docker and designed for scalable execution on HPC systems via Slurm, enabling reproducible, large-cohort microbiome analysis.
 I have used with pipeline RiboGrove, which is a database that only contains full-length prokaryotic 16S rRNA sequences extracted from completely assembled genomes — excellent for phylogenetic or genome-linked marker studies. (https://www.sciencedirect.com/science/article/pii/S0923250822000171).
 
 Results:
