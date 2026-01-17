@@ -32,27 +32,14 @@ https://doi.org/10.1016/j.resmic.2022.103936.
 
 Suggestion for future analyses:
 
-Building on this high-resolution full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. 
-
-Add functional interpretation without shotgun metagenomics
-This is a high-margin move.
-Options
-FAPROTAX-like functional inference (carefully framed)
-Trait-based grouping:
-fermenters
-vitamin producers (e.g. Cetobacterium)
-mucin degraders
-Known metabolite producers (literature-based)
-Why
-Answers “what are they doing?” without expensive WGS
-Clients don’t need KEGG pathways — they need functional narratives
+Building on this full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. It is possible to increase margin on the same dataset by adding functional interpretation of 16S without shotgun metagenomics, using PICRUSt2  or FAPROTAX-like functional inference (carefully framed). For further insights into fish gut microbiome and health native RNA shotgun Nanopore analysis can be leveraged, capturing host - micorbe  interplay.
 
 Shotgun metagenomics (selected cases)
 Resistome screening
 Virome (later stage)
 Host gene expression (advanced clients)
 
-
+With multi-sample datasets (hundreads of samples), we can provide client with higher-order ecological insight on how microbial taxa interact across environmental gradients, what patterns recur across habitats, and what that implies about functional redundancy, adaptation, and community assembly. We can extend basic metabarcoding outputs to microbial network and interaction analytics like in https://www.nature.com/articles/s42003-024-06616-5, where conditional co-occurrence clustering was applied to uncover recurring ecological modules and functional redundancy across environments. 
 Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. 
 
 Finally, aggregating results across projects to construct reference datasets and standardized reporting dashboards supports subscription-based services, client lock-in, and scalable decision-support products for aquaculture stakeholders.
