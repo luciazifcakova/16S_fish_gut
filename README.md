@@ -13,7 +13,7 @@ My pipeline logic:
 5. pathogen detection via list comparison, see NEMESISdb below 
 6. diversity indices and ordination plots, final tables (build Docker image)
 
-I have used with pipeline RiboGrove - A database that only contains full-length prokaryotic 16S rRNA sequences extracted from completely assembled genomes — excellent for phylogenetic or genome-linked marker studies. (https://www.sciencedirect.com/science/article/pii/S0923250822000171).
+I have used with pipeline RiboGrove, which is a database that only contains full-length prokaryotic 16S rRNA sequences extracted from completely assembled genomes — excellent for phylogenetic or genome-linked marker studies. (https://www.sciencedirect.com/science/article/pii/S0923250822000171).
 
 Results:
 
@@ -22,9 +22,9 @@ Most dominat bacterium  that was shared among all samples was Malacoplasma, cont
 
 Comments on data quality:
 
-31 samples had higher than 20% read duplication level that can either mean low biological diversity or techincal errors. However, even the sample 25 with highest bacterial species diversity had 40% of duplication level, it is possible that PCR over-amplified some templates more then others or that flow cell was overload followed by re-sequencing, hence it can skew abundance and biodiversity estimates. 
+31 samples had higher than 20% read duplication level that can either mean low biological diversity or techincal errors. However, duplication is expected in PCR amplified samples. 
 
-pathogenic bacteria lists:
+Pathogenic bacteria lists:
 
 https://www.sciencedirect.com/science/article/pii/S235234092500856X
 NEMESISdb is a set of three curated 16S rRNA full length sequence datasets enabling the identification and tracking of potentially pathogenic bacteria (PPB) across human, fish and crustacean hosts and helping reveal factors that influence their dynamics. A list of pathogenic bacteria for humans, fishes, and crustaceans from various studies and pathogen detection pipeline such as 16SPIP, FAPROTAX, MPD and MBPD. Full length 16S rRNA gene sequences of each of the pathogenic bacteria of the list was downloaded from the SILVA 138.2 SSU Ref NR99 bacterial database in order to obtain three pathogenic reference datasets for humans, fishes, and crustaceans, respectively. Lastly, each dataset was curated with homemade scripts to remove all sequences wrongly assigned at the species taxonomic level in SILVA 138.2 SSU Ref NR99.
@@ -32,16 +32,9 @@ https://doi.org/10.1016/j.resmic.2022.103936.
 
 Suggestion for future analyses:
 
-Building on this full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. It is possible to increase margin on the same dataset by adding functional interpretation of 16S without shotgun metagenomics, using PICRUSt2  or FAPROTAX-like functional inference (carefully framed). For further insights into fish gut microbiome and health native RNA shotgun Nanopore analysis can be leveraged, capturing host - micorbe  interplay.
-
-Shotgun metagenomics (selected cases)
-Resistome screening
-Virome (later stage)
-Host gene expression (advanced clients)
-
+Building on this full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. 
+It is possible to increase margin on the same dataset by adding functional interpretation without shotgun metagenomics by using Picrust2 or FAPROTAX that predicts the metabolic functions of bacteria in microbial communities. For further insights into fish gut microbiome and host health, native RNA shotgun Nanopore sequencing can be leveraged to capture both microbial and host transcriptomes simultaneously, enabling direct assessment of active metabolic pathways, stress and immune responses, host–microbe interactions, and functional shifts that cannot be inferred from DNA-based profiling alone.
 With multi-sample datasets (hundreads of samples), we can provide client with higher-order ecological insight on how microbial taxa interact across environmental gradients, what patterns recur across habitats, and what that implies about functional redundancy, adaptation, and community assembly. We can extend basic metabarcoding outputs to microbial network and interaction analytics like in https://www.nature.com/articles/s42003-024-06616-5, where conditional co-occurrence clustering was applied to uncover recurring ecological modules and functional redundancy across environments. 
 Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. 
-
-Finally, aggregating results across projects to construct reference datasets and standardized reporting dashboards supports subscription-based services, client lock-in, and scalable decision-support products for aquaculture stakeholders.
 
 1. 
