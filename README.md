@@ -32,6 +32,29 @@ https://doi.org/10.1016/j.resmic.2022.103936.
 
 Suggestion for future analyses:
 
-Building on this high-resolution full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering longitudinal monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. Finally, aggregating results across projects to construct reference datasets and standardized reporting dashboards supports subscription-based services, client lock-in, and scalable decision-support products for aquaculture stakeholders.
+Building on this high-resolution full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. 
+
+Add functional interpretation without shotgun metagenomics
+This is a high-margin move.
+Options
+FAPROTAX-like functional inference (carefully framed)
+Trait-based grouping:
+fermenters
+vitamin producers (e.g. Cetobacterium)
+mucin degraders
+Known metabolite producers (literature-based)
+Why
+Answers “what are they doing?” without expensive WGS
+Clients don’t need KEGG pathways — they need functional narratives
+
+Shotgun metagenomics (selected cases)
+Resistome screening
+Virome (later stage)
+Host gene expression (advanced clients)
+
+
+Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. 
+
+Finally, aggregating results across projects to construct reference datasets and standardized reporting dashboards supports subscription-based services, client lock-in, and scalable decision-support products for aquaculture stakeholders.
 
 1. 
