@@ -37,4 +37,3 @@ It is possible to increase margin on the same dataset by adding functional inter
 With multi-sample datasets (hundreads of samples), we can provide client with higher-order ecological insight on how microbial taxa interact across environmental gradients, what patterns recur across habitats, and what that implies about functional redundancy, adaptation, and community assembly. We can extend basic metabarcoding outputs to microbial network and interaction analytics like in https://www.nature.com/articles/s42003-024-06616-5, where conditional co-occurrence clustering was applied to uncover recurring ecological modules and functional redundancy across environments. 
 Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. 
 
-1. 
