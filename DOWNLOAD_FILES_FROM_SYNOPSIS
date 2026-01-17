@@ -1,6 +1,6 @@
 #log in synopsis
-SHARE_ID="V4kwhJsaL"
-PASS="eACRkktUQwIX"
+SHARE_ID="*****"
+PASS="*****"
 BASE="https://data.seqme.eu"
 curl -s -c cookies.txt \
    -d "api=SYNO.Core.Sharing.Login&method=login&version=1&sharing_id=$SHARE_ID&password=$PASS" \
