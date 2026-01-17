@@ -1,5 +1,71 @@
 # 16S_fish_gut
 
+Pouzitie celej dlzky 16S markeru pri analýze črevného mikrobiómu poskytuje vyššie taxonomické rozlíšenie (často na úroveň druhu). Krátke amplikónové oblasti (najmä V4) často zlučujú viacero druhov do jedného rodu, zatiaľ čo cela 16S obsahuje viac informatívnych miest pozdĺž celého markeru a umožňuje lepšie rozlíšenie blízko príbuzných taxónov. Tento záver sa opakovane potvrdzuje v porovnávacích (benchmarking) štúdiách.
+
+Porovnanie pipeline
+[https://github.com/genomic-medicine-sweden/TRANA](https://github.com/genomic-medicine-sweden/TRANA) používajúcej klasifikátor EMU
+vs.
+[https://epi2me.nanoporetech.com/epi2me-docs/workflows/wf-16s/](https://epi2me.nanoporetech.com/epi2me-docs/workflows/wf-16s/) používajúcej minimap2:
+
+Klasifikátor EMU je špecificky navrhnutý na generovanie presných profilov relatívnej abundancie na úrovni druhov z celej 16S pri Nanopore sekvenovani pomocou algoritmu očakávanej–maximalizácia, ktorý spresňuje taxonomické priradenie na základe kolektívneho dôkazu zo všetkých readov ([https://pmc.ncbi.nlm.nih.gov/articles/PMC9939874/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9939874/)). Na rozdiel od jednoduchého prístup založeného na zarovnaní, ako je minimap2, ktorý mapuje čítania na referenčné sekvencie bez riešenia nejednoznačných zhôd, EMU iteratívne upravuje pravdepodobnosť, že dané čítanie pochádza z konkrétneho kandidátneho taxónu. Tým znižuje počet falošne pozitívnych priradení a zlepšuje odhady abundancie. Benchmarky na simulovaných a „mock“ komunitách ukazujú, že EMU dosahuje nižšiu chybu relatívnej abundancie a výrazne menej nesprávnych druhových priradení než samotný minimap2, pretože využíva pravdepodobnostný model namiesto spoliehania sa výlučne na surové zarovnania.
+
+---
+
+## Logika pipeline:
+
+1. Kontrola kvality (QC) – FastQC, NanoPlot, MultiQC, Filtlong
+2. Klasifikácia pomocou EMU s kurátorovanou databázou RiboGrove
+3. Generovanie tabuliek relatívnej abundancie
+4. Vizualizácia relatívnej abundancie pomocou Krona
+5. Detekcia patogénov porovnaním so zoznamami (viď NEMESISdb nižšie)
+6. Výpočet diverzitných indexov, ordinačné analýzy a finálne tabuľky (Docker image)
+
+---
+
+Implementovala som modifikovanú verziu pipeline TRANA
+[https://github.com/luciazifcakova/TRANA_translate_modified](https://github.com/luciazifcakova/TRANA_translate_modified)
+pre full-length Nanopore 16S rRNA dáta a rozšírila ju o vlastné moduly pre postprocesing a ekologickú analýzu. Okrem taxonomického profilovania pomocou klasifikátora EMU s kurátorovanou databázou RiboGrove, ktorá obsahuje full-length prokaryotické 16S rRNA sekvencie extrahované z kompletne zostavených genómov ([https://www.sciencedirect.com/science/article/pii/S0923250822000171](https://www.sciencedirect.com/science/article/pii/S0923250822000171)), som vyvinula reprodukovateľné downstream workflowy na agregáciu kontroly kvality, tvorbu tabuliek abundancie, analýzu alfa a beta diverzity, ordinačné analýzy, zhlukovanie, patogénovo orientované sub-analýzy a interaktívne vizualizácie. Postprocesingový workflow je kontajnerizovaný pomocou Dockeru s fixnými verziami softvéru a navrhnutý na škálovateľné spúšťanie na HPC systémoch cez Slurm, čo umožňuje reprodukovateľnú analýzu veľkých kohort mikrobiómov.
+
+---
+
+## Zoznamy patogénnych baktérií:
+
+[https://www.sciencedirect.com/science/article/pii/S235234092500856X](https://www.sciencedirect.com/science/article/pii/S235234092500856X)
+
+NEMESISdb je súbor troch kurátorovaných databáz full-length 16S rRNA sekvencií, ktoré umožňujú identifikáciu a sledovanie potenciálne patogénnych baktérií (PPB) u ľudí, rýb a kôrovcov a pomáhajú odhaľovať faktory ovplyvňujúce ich dynamiku. Zoznam patogénnych baktérií pre ľudí, ryby a kôrovce bol zostavený z viacerých štúdií a pipeline na detekciu patogénov, ako sú 16SPIP, FAPROTAX, MPD a MBPD. Full-length 16S rRNA sekvencie jednotlivých patogénnych baktérií boli stiahnuté z databázy SILVA 138.2 SSU Ref NR99 s cieľom vytvoriť tri referenčné patogénne databázy pre ľudí, ryby a kôrovce. Následne boli databázy kurátorované pomocou vlastných skriptov na odstránenie sekvencií nesprávne priradených na úrovni druhu v databáze SILVA 138.2 SSU Ref NR99.
+[https://doi.org/10.1016/j.resmic.2022.103936](https://doi.org/10.1016/j.resmic.2022.103936)
+
+---
+
+## Validácie a obmedzenia:
+
+Hoci full-length 16S zlepšuje taxonomické rozlíšenie, odhady relatívnej abundancie sú stále ovplyvnené PCR amplifikačným biasom, variabilitou počtu kópií rRNA génu a úplnosťou databáz. EMU redukuje počet falošne pozitívnych priradení v porovnaní s priamym zarovnávaním (napr. minimap2), no nedokáže úplne rozlíšiť taxóny, ktoré chýbajú alebo sú nesprávne reprezentované v referenčných databázach. Z tohto dôvodu sú odhady abundancie interpretované porovnávacím spôsobom medzi vzorkami, nie ako absolútne hodnoty, a nízkoabundantné taxóny sú zachované v downstream ekologických analýzach. Diverzitné metriky boli vypočítané z tabuliek relatívnej abundancie odvodených z EMU odhadov; interpretácie sa preto zameriavajú na štruktúru komunít a porovnávacie trendy, nie na absolútnu mikrobiálnu záťaž.
+
+V 31 vzorkách bola pozorovaná úroveň duplicity čítaní vyššia než 20 %, čo môže naznačovať buď nízku biologickú diverzitu, alebo technické artefakty. Duplicitné čítania sú však očakávané pri PCR amplifikovaných vzorkách a metriky duplicity z FastQC je potrebné interpretovať opatrne, keďže FastQC nie je primárne navrhnutý pre Nanopore dáta.
+
+---
+
+## Výsledky:
+
+Zloženie mikrobiálnych komunít sa medzi vzorkami výrazne líšilo, pričom Bray–Curtis vzdialenosti odhalili jasné zhlukovacie vzory. Ordinačné a hierarchické zhlukovacie analýzy konzistentne identifikovali skupiny vzoriek s podobnými profilmi relatívnej abundancie. Analýza prítomnosti/neprítomnosti pomocou UpSet grafov ukázala absenciu veľkého univerzálneho jadra komunity a namiesto toho odhalila modulárnu štruktúru s taxónmi zdieľanými medzi podmnožinami vzoriek. To naznačuje vysoký obrat komunít a potenciálne environmentálne alebo hostiteľsky podmienené filtre formujúce taxonomické zloženie.
+
+Naprieč vzorkami bolo identifikované relatívne malé, ale konzistentné jadro taxónov prítomných vo všetkých vzorkách, sprevádzané veľkým počtom nízkofrekvenčných taxónov obmedzených na malý počet vzoriek. Tento vzor poukazuje na stabilnú kostru komunity s flexibilným periférnym zložením, typickú pre hostiteľsky asociované alebo environmentálne štruktúrované mikrobiálne komunity.
+
+Najdominantnejším baktériovým taxónom zdieľaným medzi všetkými vzorkami bol rod *Malacoplasma*, ktorý prispieva k vyváženému črevnému ekosystému (napr. u lososa; [https://www.nature.com/articles/s41396-023-01379-z](https://www.nature.com/articles/s41396-023-01379-z)). Ďalšie dominantné baktérie, ako *Deefgea piscis*, môžu produkovať sekundárne metabolity prospešné pre zdravie rýb ([https://pubmed.ncbi.nlm.nih.gov/36048329/](https://pubmed.ncbi.nlm.nih.gov/36048329/)) alebo *Cetobacterium somerae*, ktoré zlepšujú črevné zdravie rýb prostredníctvom fermentačných produktov ([https://pubmed.ncbi.nlm.nih.gov/34780975/](https://pubmed.ncbi.nlm.nih.gov/34780975/)).
+
+Celkovo tieto vzorky vykazujú charakteristiky zdravého črevného mikrobiómu rýb, keďže identifikované patogénne baktérie tvorili maximálne 2,7 % všetkých identifikovaných baktérií v jednotlivých vzorkách. Vzorka 25 vykazovala najvyššiu pozorovanú biodiverzitu, zatiaľ čo vzorky 10 a 23 najnižšiu. Nízka diverzita komunít dominovaných niekoľkými taxónmi bola indikovaná veľmi nízkymi hodnotami Shannonovho indexu (celková diverzita – bohatstvo + rovnomernosť), Pielouovho indexu (rovnomernosť) a Simpsonovho indexu (dominancia druhov, zvýrazňujúca hojné taxóny), ktoré boli vo vzorkách 10, 16, 22 a 4 všetky pod hodnotou 0,2. To môže naznačovať buď prirodzene nízku diverzitu v dôsledku environmentálnych faktorov (napr. strava – mäsožravce majú menej diverzný mikrobióm), alebo vplyv ošetrenia (napr. antibiotiká, keďže iba vo vzorke 4 boli patogény potvrdené na úrovni 0,12 % relatívnej abundancie). Naopak, vzorky 15 a 35 mali všetky tri indexy medzi najvyššími zo všetkých vzoriek, čo naznačuje vysoko diverznú komunitu s rovnomerne rozloženou abundanciou a môže poukazovať na zdravé ryby s pestrou stravou. Na NMDS a PCoA grafoch (Bray–Curtis vzdialenosť) bol identifikovaný určitý zhlukovací vzor, ktorý nie je spôsobený prítomnosťou známych patogénov, čo naznačuje úlohu ďalších faktorov.
+
+---
+
+## Návrhy pre budúce analýzy:
+
+Na základe tohto full-length 16S datasetu zahŕňajú ďalšie analytické kroky s najvyššou komerčnou hodnotou vytvorenie referenčných (baseline) profilov črevného mikrobiómu a ponuku monitoringu na detekciu časových odchýlok spojených s manažmentom, stravou alebo environmentálnymi zmenami. Diverzitné metriky a výsledky skríningu patogénov môžu byť integrované do kompozitných indexov črevného zdravia a rizika, čo umožní intuitívne porovnávanie medzi vzorkami a časovými bodmi.
+
+Maržu z rovnakého datasetu je možné zvýšiť pridaním funkčnej interpretácie bez potreby shotgun metagenomiky pomocou nástrojov Picrust2 alebo FAPROTAX, ktoré predikujú metabolické funkcie baktérií v mikrobiálnych komunitách. Pre hlbší vhľad do črevného mikrobiómu rýb a zdravia hostiteľa je možné využiť native RNA shotgun Nanopore sekvenovanie, ktoré umožňuje simultánne zachytiť transkriptómy mikróbov aj hostiteľa, a tým priamo hodnotiť aktívne metabolické dráhy, stresové a imunitné odpovede, interakcie hostiteľ–mikrób a funkčné zmeny, ktoré nemožno odvodiť iba z DNA-profilovania.
+
+Pri viacvzorkových datasetoch (stovky vzoriek) je možné poskytovať klientom vyšší stupeň ekologického poznania o tom, ako mikrobiálne taxóny interagujú naprieč environmentálnymi gradientmi, aké vzory sa opakujú medzi habitatmi a čo to implikuje o funkčnej redundancii, adaptácii a zostavovaní komunít. Základné metabarcodingové výstupy je možné rozšíriť o analýzu mikrobiálnych sietí a interakcií, ako je to demonštrované v práci [https://www.nature.com/articles/s42003-024-06616-5](https://www.nature.com/articles/s42003-024-06616-5), kde bolo použité podmienené zhlukovanie spolu-výskytu na odhalenie opakujúcich sa ekologických modulov a funkčnej redundancie naprieč prostrediami. Rozšírenie detekcie patogénov o prahovo založené systémy včasného varovania a integrácia inferencie funkčných znakov môžu ďalej transformovať taxonomické dáta na biologicky a prakticky využiteľné poznatky.
+
+
 Full-length 16S in gut microbiome provides higher taxonomic resolution (often to species; sometimes strains). Short regions (esp. V4) frequently collapse multiple species into one genus-level call, while full-length provides more informative sites across the gene and can separate closely related taxa better. This is a recurring conclusion across benchmarking studies. 
 
 https://github.com/genomic-medicine-sweden/TRANA pipeline using Emu classifier vs https://epi2me.nanoporetech.com/epi2me-docs/workflows/wf-16s/ using minimap2:
