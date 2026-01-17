@@ -1,6 +1,6 @@
 # 16S_fish_gut
 
-Full-length 16S in gut microbiome provides higher taxonomic resolution (often to species; sometimes strain “hints”). Short regions (esp. V4) frequently collapse multiple species into one genus-level call, while full-length provides more informative sites across the gene and can separate closely related taxa better. This is a recurring conclusion across benchmarking studies. 
+Full-length 16S in gut microbiome provides higher taxonomic resolution (often to species; sometimes strains). Short regions (esp. V4) frequently collapse multiple species into one genus-level call, while full-length provides more informative sites across the gene and can separate closely related taxa better. This is a recurring conclusion across benchmarking studies. 
 
 https://github.com/genomic-medicine-sweden/TRANA pipeline using Emu classifier vs https://epi2me.nanoporetech.com/epi2me-docs/workflows/wf-16s/ using minimap2:
 The Emu classifier is specifically designed to generate accurate species-level abundance profiles from full-length 16S Nanopore reads by using an expectation–maximization (EM) algorithm to refine taxonomic assignments based on the collective evidence from all reads (https://pmc.ncbi.nlm.nih.gov/articles/PMC9939874/). In contrast to a simple alignment approach like minimap2, which only maps reads to reference sequences without resolving ambiguous matches, Emu iteratively adjusts the probability that each read arises from each candidate taxon, reducing false positives and improving abundance estimates. Benchmarking on simulated and mock communities shows that Emu produces lower relative abundance error and far fewer incorrect species calls than minimap2 alone, because it balances true positive detection with false positive suppression through its probabilistic model rather than relying solely on raw alignments.
@@ -31,5 +31,7 @@ NEMESISdb is a set of three curated 16S rRNA full length sequence datasets enabl
 https://doi.org/10.1016/j.resmic.2022.103936.
 
 Suggestion for future analyses:
+
+Building on this high-resolution full-length 16S dataset, the next analytical steps with the greatest commercial value include establishing baseline gut microbiome profiles and offering longitudinal monitoring to detect temporal deviations associated with management, diet, or environmental changes. Diversity metrics and pathogen screening results can be integrated into composite gut-health and risk indices, enabling intuitive benchmarking across samples and time points. Expanding pathogen detection into threshold-based early-warning frameworks and incorporating functional trait inference can further translate taxonomic data into actionable biological insight. Finally, aggregating results across projects to construct reference datasets and standardized reporting dashboards supports subscription-based services, client lock-in, and scalable decision-support products for aquaculture stakeholders.
 
 1. 
