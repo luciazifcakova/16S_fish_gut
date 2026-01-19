@@ -7,10 +7,10 @@ The Emu classifier is specifically designed to generate accurate species-level a
 
 ## The pipeline logic:
 
-1. Check QC - FastQC, Nanoplot, MultiQC, Filtlong
-2. EMU classifier with RiboGrove curated database
-3. relative abundace tables
-4. Krona - relative abundace results are displayed with Krona
+1. Inside TRANA: Check QC - FastQC, Nanoplot, MultiQC, Filtlong
+2. Inside TRANA: EMU classifier with RiboGrove curated database
+3. Inside TRANA: relative abundace tables
+4. Inside TRANA: Krona - relative abundace results are displayed with Krona
 5. pathogen detection via list comparison, see NEMESISdb below 
 6. diversity indices and ordination plots, final tables (build Docker image)
 
