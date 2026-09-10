@@ -1,3 +1,71 @@
+# Full-Length 16S Fish Gut Microbiome Analysis
+
+**Long-read microbiome workflow for Oxford Nanopore full-length 16S sequencing, extended with ecological analysis and pathogen screening.**
+
+![R](https://img.shields.io/badge/R-analysis-blue)
+![Docker](https://img.shields.io/badge/Container-Docker-blue)
+![Slurm](https://img.shields.io/badge/HPC-Slurm-green)
+![Nanopore](https://img.shields.io/badge/Sequencing-Oxford%20Nanopore-purple)
+![EMU](https://img.shields.io/badge/Taxonomy-EMU-orange)
+
+This project demonstrates how I **adapt an existing bioinformatics workflow and extend it into a reproducible end-to-end analysis**.
+
+I implemented a modified version of the [TRANA](https://github.com/genomic-medicine-sweden/TRANA) full-length 16S workflow and developed custom downstream modules for:
+
+- **species-level abundance analysis**
+- **pathogen screening**
+- **alpha and beta diversity**
+- **NMDS and PCoA ordination**
+- **hierarchical clustering**
+- **community-composition visualization**
+- **sample × species reporting**
+- **reproducible Docker + Slurm execution**
+
+The workflow processes Oxford Nanopore full-length 16S reads using **EMU with the curated RiboGrove database**, then converts taxonomic profiles into biologically interpretable microbiome outputs.
+
+## Workflow overview
+
+```mermaid
+flowchart TD
+
+    A[Oxford Nanopore<br/>full-length 16S FASTQ]
+
+    subgraph TRANA["Modified TRANA workflow"]
+        B[Read QC<br/>FastQC · NanoPlot · MultiQC]
+        C[Read filtering<br/>Filtlong]
+        D[EMU taxonomic profiling<br/>RiboGrove database]
+        E[Species abundance profiles]
+        F[Krona visualization]
+    end
+
+    subgraph CUSTOM["Custom downstream analysis"]
+        G[Pathogen screening<br/>NEMESISdb-derived lists]
+        H[Phyloseq data structure]
+        I[Alpha diversity]
+        J[Beta diversity<br/>Bray-Curtis · Jaccard]
+        K[Ordination<br/>NMDS · PCoA]
+        L[Clustering & heatmaps]
+        M[Community composition<br/>& UpSet analysis]
+        N[Sample × species<br/>reporting tables]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    E --> G
+    E --> H
+
+    H --> I
+    H --> J
+    J --> K
+    J --> L
+    H --> M
+    H --> N
+```
+
 # 16S_fish_gut
 
 Full-length 16S in gut microbiome provides higher taxonomic resolution (often to species; sometimes strains). Short regions (esp. V4) frequently collapse multiple species into one genus-level call, while full-length provides more informative sites across the marker and can separate closely related taxa better. This is a recurring conclusion across benchmarking studies. 
