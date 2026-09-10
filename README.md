@@ -8,7 +8,15 @@
 ![Nanopore](https://img.shields.io/badge/Sequencing-Oxford%20Nanopore-purple)
 ![EMU](https://img.shields.io/badge/Taxonomy-EMU-orange)
 
-This project demonstrates how I **adapt an existing bioinformatics workflow and extend it into a reproducible end-to-end analysis**.
+## What this project demonstrates
+
+- **Adapting an existing bioinformatics workflow** rather than starting from a predefined recipe
+- **R-based biological data analysis** using microbiome abundance and taxonomy data
+- **Connecting computational outputs to biological questions**
+- **Extending a pipeline with custom analysis modules**
+- **Containerizing analysis for reproducibility**
+- **Running workflows on HPC with Slurm**
+- **Turning raw sequencing outputs into interpretable reports**
 
 I implemented a modified version of the [TRANA](https://github.com/genomic-medicine-sweden/TRANA) full-length 16S workflow and developed custom downstream modules for:
 
